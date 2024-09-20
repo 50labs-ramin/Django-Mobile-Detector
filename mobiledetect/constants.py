@@ -508,7 +508,7 @@ PROPERTIES = {
     'iOS': ' \bi?OS\b [VER][ ;]{1}',
     'Android': 'Android [VER]',
     'Sailfish': 'Sailfish [VER]',
-    'BlackBerry': ['BlackBerry[\w]+/[VER]', 'BlackBerry.*Version/[VER]', 'Version/[VER]'],
+    'BlackBerry': [r'BlackBerry[\w]+/[VER]', 'BlackBerry.*Version/[VER]', 'Version/[VER]'],
     'BREW': 'BREW [VER]',
     'Java': 'Java/[VER]',
     # @reference: http:#windowsteamblog.com/windows_phone/b/wpdev/archive/2011/08/29/introducing-the-ie9-on-windows-phone-mango-user-agent-string.aspx
